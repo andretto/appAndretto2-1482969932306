@@ -1,0 +1,12 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: appAndretto2
+  host: appAndretto2
+  disk_quota: 1024M
+  services:
+  - appAndretto2-AdvancedMobileAccess
+  - appAndretto2-imfpush
+  - appAndretto2-cloudantNoSQLDB
